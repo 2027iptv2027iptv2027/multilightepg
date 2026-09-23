@@ -36,6 +36,8 @@ URLS = [
     'https://iptv-epg.org/files/epg-gb.xml.gz', 
     'https://iptv-epg.org/files/epg-ca.xml.gz', 
     'https://iptv-epg.org/files/epg-au.xml.gz',
+    'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 
+    'https://github.com/2027iptv2027iptv2027/app-m3u-generator/raw/refs/heads/main/playlists/tubi_epg.xml', 
     'http://mains.services/xmltv.php?username=tmo247line&password=65s4d64vgfdfbae4',
     'https://github.com/BuddyChewChew/tcl-playlist-generator/raw/refs/heads/main/tcl_epg.xml',
     'https://github.com/matthuisman/i.mjh.nz/raw/refs/heads/master/nzau/epg.xml.gz',
@@ -46,9 +48,9 @@ URLS = [
     'https://github.com/matthuisman/i.mjh.nz/raw/master/Roku/all.xml',
     'https://epg.pw/api/epg.xml?lang=en&timezone=VVMvRWFzdGVybg%3D%3D&date=20260405&channel_id=464981',
     'https://github.com/BuddyChewChew/xumo-playlist-generator/raw/refs/heads/main/playlists/xumo_epg.xml.gz',
-    'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml'
+    'https://raw.githubusercontent.com/matthuisman/i.mjh.nz/refs/heads/master/PlutoTV/all.xml', 
 ]
-
+    
 def get_tvg_ids_from_remote_m3u():
     """Downloads M3U from GitFlic and extracts tvg-id values."""
     tvg_ids = set()
