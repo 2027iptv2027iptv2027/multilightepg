@@ -36,6 +36,7 @@ URLS = [
     'https://iptv-epg.org/files/epg-gb.xml.gz', 
     'https://iptv-epg.org/files/epg-ca.xml.gz', 
     'https://iptv-epg.org/files/epg-au.xml.gz',
+    'https://iptv-epg.org/files/epg-mx.xml.gz',
     'https://github.com/matthuisman/i.mjh.nz/raw/master/SamsungTVPlus/all.xml.gz', 
     'https://github.com/2027iptv2027iptv2027/tubi-scraper/raw/refs/heads/main/tubi_epg.xml', 
     'http://mains.services/xmltv.php?username=tmo247line&password=65s4d64vgfdfbae4',
